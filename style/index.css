@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* background-image: url(images/two-children.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; */
+  background: linear-gradient(to right, #000 0%, #60b4e7);
+  color: #fff;
+  font-family: sans-serif;
+}
+
+div#workflow {
+  margin: 0 auto;
+  width: 320px;
+  padding-bottom: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+div.img-section {
+  width: 320px;
+  height: 320px;
+  margin-top: -20px;
+}
+
+img.profile-pic {
+  width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.info-profile-text {
+  text-align: center;
+  padding: 1rem 0;
+  color: #fff;
+  padding: 0px;
+}
+
+.info-profile-text h1 {
+  font-size: 25px;
+}
+
+h1 {
+  margin: 0px;
+}
+
+.info-first-p {
+  color: #f3bf99;
+  font-weight: 400;
+  font-size: 12.8px;
+  margin-top: -2px;
+}
+
+.info-sec-p {
+  margin-top: -5px;
+  font-size: 10.24px;
+}
+
+.profile-text {
+  margin: 0px;
+  padding: 1rem 2rem;
+}
+
+h4 {
+  margin-bottom: 0px;
+}
+
+p.about,
+p.interest,
+p.stack {
+  color: #dcdcdc;
+  line-height: 15.36px;
+  font-size: 10.24px;
+  margin-top: 0px;
+  text-align: justify;
+}
+
+.info-btns {
+  width: 120px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: none;
+}
+
+footer {
+  text-align: center;
+}
