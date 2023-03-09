@@ -154,10 +154,10 @@ a:hover {
 footer {
   justify-content: center;
   display: flex;
-  flex-basis: 10%;
+  flex-basis: 8%;
   flex-direction: row;
-  padding-top: 25px;
-  padding-bottom: 50px;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
 @media only screen and (min-width: 480px) and (max-width: 1280px) {

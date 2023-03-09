@@ -1,7 +1,5 @@
-<!DOCTYPE html>
-<!--Document declaration for HTML5-->
-<html lang="en">
-  <!--Language-->
+<!DOCTYPE html><!--Document declaration for HTML5-->
+<html lang="en"></html> <!--Language-->
 
   <head>
     <meta charset="UTF-8" />
@@ -11,14 +9,19 @@
     <meta name="description" content="personal profile developed by omotayo" />
     <meta name="author" content="Oguneko Omotayo" />
     <!-- <link rel="shortcut icon" type="image/png" href="#"> -->
-    <meta http-equiv="refresh" content="1000" />
-    <!-- Refresh document every 1000 seconds -->
+    <meta http-equiv="refresh" content="1000" /><!-- Refresh document every 1000 seconds -->
     <link rel="stylesheet" href="style/index.css" />
     <title>Personal Profile</title>
   </head>
 
   <body>
+               <!--////////////////////////// -->
+            <!--////// The overall Wrapper//////-->
+               <!--////////////////////////// -->
     <div id="wrapper">
+               <!--///////////////////////////// -->
+            <!--////// First Wrapper section.//////-->
+               <!--//////////////////////////// -->
       <div class="wrapper1">
         <div class="img-section">
           <img
@@ -29,14 +32,17 @@
             height="320px"
           />
         </div>
-        <!-- <section class="profile-text"> -->
+    
         <div class="info-profile-text">
           <h1>Oguneko Omotayo</h1>
           <p class="info-first-p">Frontend Developer</p>
           <p class="info-sec-p">Focus Driven</p>
 
-          <a href="mailto: ogunekoomotayo@gmail.com"
-            ><button class="info-btns">
+               <!--///////////////////////////////////////////////////////////////////////////////////////////////// -->
+            <!--////// Used JavaScript Onclick event attribute  and window.location.href value to linked the btns.//////-->
+               <!--///////////////////////////////////////////////////////////////////////////////////////////////// -->
+            <button Onclick="window.location.href='mailto: ogunekoomotayo@gmail.com'"
+             class="info-btns">
               <img
                 src="icons/email.png"
                 alt=""
@@ -45,15 +51,17 @@
               Email
             </button></a
           >
-          <a href="https://www.linkedin.com/in/oguneko-omotayo-122884260">
-            <button
+            <button  Onclick="window.location.href='https://www.linkedin.com/in/oguneko-omotayo-122884260'"
               class="info-btns"
               style="background-color: #60b4e7; color: #fff"
             >
               <img src="icons/linkedin.png" alt="" style="width: 17px" />
               Linkedin
-            </button></a
-          >
+            </button>
+    
+                <!--///////////////////////////// -->
+            <!--////// Second Wrapper section.//////-->
+                <!--//////////////////////////// -->
         </div>
       </div>
       <div class="wrapper2">
@@ -74,7 +82,7 @@
           <p>
             <b>HTML:</b>
             HTML, or Hypertext Markup Language, is a markup language for the web
-            that defines the structure of web pages. <br />
+            that defines the structure of web pages. <br />s
             <br />
 
             <b>CSS:</b>
@@ -92,6 +100,10 @@
           <br />
         </div>
       </div>
+
+                  <!--/////////////////////// -->
+                <!--////// Footer section.//////-->
+                  <!--////////////////////// -->
       <footer>
         <a href="https://www.twitter.com/@babytayo3"
           ><img
